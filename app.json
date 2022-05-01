@@ -1,12 +1,21 @@
 {
   "expo": {
-    "name": "CgcCrush",
-    "slug": "CgcCrush",
+    "name": "cgcrush",
+    "slug": "cgcrush",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "scheme":"https",
+    "icon": "./assets/logo.png",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +30,20 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.cgcrush.cgcrush",
+      "config": {
+        "googleSignIn":{
+          "apiKey":"AIzaSyBfd0-n7ZGRy9st1zSj3wEqyFh0JIZgKD0",
+          "certificateHash": "8C4FACCB1D3F7E73B68764E0BB21ADF5B345A270D27246C34C2D9CFA58C32112"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
