@@ -14,10 +14,10 @@ import {
 const AuthContext = createContext({}) 
 
 const config =  {
-  iosClientId: "804935391963-g437ebvhfdepi4n6roes06042olm1643.apps.googleusercontent.com",
-  androidClientId: "804935391963-mneklrcvbh41enq0q15pofutchp5ffrp.apps.googleusercontent.com",
+  iosClientId: "ios cliend id here",
+  androidClientId: "android cliend id here",
  
-  androidStandaloneAppClientId: "804935391963-j0gth8oeqdeb2ne2i01k1d95kdcbscol.apps.googleusercontent.com",
+  androidStandaloneAppClientId: "stand alone app client id here",
   scopes: ["profile","email"],
   permissions : ["public_profile","email","gender","location"]
 
