@@ -6,12 +6,12 @@
   
 
   const firebaseConfig = {
-    apiKey: "AIzaSyBipNDzF8obSbk-vpQhGGT4dRGop0H8130",
+    apiKey: "Api kye here",
     authDomain: "cgc-crush.firebaseapp.com",
     projectId: "cgc-crush",
     storageBucket: "cgc-crush.appspot.com",
     messagingSenderId: "804935391963",
-    appId: "1:804935391963:web:d4b2ad22b9f1386616cafe"
+    appId: "App id here"
   };
 
   // Initialize Firebase
