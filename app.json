@@ -36,8 +36,8 @@
       "package": "com.cgcrush.cgcrush",
       "config": {
         "googleSignIn":{
-          "apiKey":"AIzaSyBfd0-n7ZGRy9st1zSj3wEqyFh0JIZgKD0",
-          "certificateHash": "8C4FACCB1D3F7E73B68764E0BB21ADF5B345A270D27246C34C2D9CFA58C32112"
+          "apiKey":"Api key here",
+          "certificateHash": "has here"
         }
       }
     },
