@@ -19,7 +19,7 @@ CGC Crush is a dating app specifically designed for CGC (Chandigarh Group of Col
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cgc-crush.git
+   git clone https://github.com/Ashish1322/cgcrush
    ```
 
 2. Navigate to the project directory:
